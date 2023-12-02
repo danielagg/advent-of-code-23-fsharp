@@ -6,15 +6,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="day1\solution.fs" />
-    <Compile Include="day2\solution.fs" />
-    <Compile Include="day3\solution.fs" />
-    <Compile Include="day4\solution.fs" />
-    <Compile Include="day5\solution.fs" />
-    <Compile Include="day6\solution.fs" />
-    <Compile Include="day7\solution.fs" />
-    <Compile Include="day8\solution.fs" />
-    <Compile Include="day9\solution.fs" />
+    <Compile Include="day01\solution.fs" />
+    <Compile Include="day02\solution.fs" />
+    <Compile Include="day03\solution.fs" />
+    <Compile Include="day04\solution.fs" />
+    <Compile Include="day05\solution.fs" />
+    <Compile Include="day06\solution.fs" />
+    <Compile Include="day07\solution.fs" />
+    <Compile Include="day08\solution.fs" />
+    <Compile Include="day09\solution.fs" />
     <Compile Include="day10\solution.fs" />
     <Compile Include="day11\solution.fs" />
     <Compile Include="day12\solution.fs" />
