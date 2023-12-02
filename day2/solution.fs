@@ -22,9 +22,11 @@ module Part1 =
 
     let calculateResults (rawInput: string) =
         let gameId = extractGameId rawInput
-        let inputWithGame = rawInput.Substring(rawInput.IndexOf(':') + 2).Trim()
-        let games = inputWithGame.Split(';', StringSplitOptions.RemoveEmptyEntries)
-        games |> Array.map getValidityResult |> Array.forall (fun x -> x = 1) |> fun x -> if x then int gameId else 0
+        
+        rawInput.Substring(rawInput.IndexOf(':') + 2).Trim().Split(';', StringSplitOptions.RemoveEmptyEntries)
+        |> Array.map getValidityResult
+        |> Array.forall (fun x -> x = 1)
+        |> fun x -> if x then int gameId else 0
 
     let run () =
         let inputFilePath = Path.Combine(__SOURCE_DIRECTORY__, "input.txt")
@@ -56,9 +58,7 @@ module Part2 =
 
     let calculateResults (rawInput: string) =
         let inputWithGame = rawInput.Substring(rawInput.IndexOf(':') + 2).Trim()
-        let games = inputWithGame.Split(';', StringSplitOptions.RemoveEmptyEntries)
-        let colors = games |> Array.map getColorsPerGame
-        let minimums = getMinimums colors
+        let minimums = inputWithGame.Split(';', StringSplitOptions.RemoveEmptyEntries) |> Array.map getColorsPerGame |> getMinimums
 
         minimums.Red * minimums.Green * minimums.Blue
 
