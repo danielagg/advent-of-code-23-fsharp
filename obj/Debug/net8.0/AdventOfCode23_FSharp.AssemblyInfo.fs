@@ -10,7 +10,7 @@ open System.Reflection
 [<assembly: System.Reflection.AssemblyCompanyAttribute("AdventOfCode23_FSharp")>]
 [<assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")>]
 [<assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")>]
-[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dff8e7f80d16b6e2e520ab6b131e8c53c7a7a946")>]
+[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+683f3da60b04ef4e9dc62a2479bc631fdc16c4fb")>]
 [<assembly: System.Reflection.AssemblyProductAttribute("AdventOfCode23_FSharp")>]
 [<assembly: System.Reflection.AssemblyTitleAttribute("AdventOfCode23_FSharp")>]
 [<assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")>]
